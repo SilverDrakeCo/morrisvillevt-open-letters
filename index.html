@@ -19,7 +19,7 @@
     <div id="markdown-content"></div>
 
     <script>
-        fetch('re-illegal-permitting-morrisville.md')
+        fetch('./re-illegal-permitting-morrisville.md')
             .then(response => response.text())
             .then(markdown => {
                 const html = marked.parse(markdown); // Convert Markdown to HTML
