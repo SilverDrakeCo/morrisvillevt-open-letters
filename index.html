@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Morrisville Open Letter</title>
+    <title>Morristown Open Secrets</title>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>  <style>
         body {
             font-family: sans-serif;
@@ -19,7 +19,7 @@
     <div id="markdown-content"></div>
 
     <script>
-        fetch('./re-illegal-permitting-morrisville.md')
+        fetch('./home.md')
             .then(response => response.text())
             .then(markdown => {
                 const html = marked.parse(markdown); // Convert Markdown to HTML
